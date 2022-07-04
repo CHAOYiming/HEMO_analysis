@@ -62,7 +62,6 @@ sample_ST <- myRCTD@spatialRNA
 
 # ----- check cell type proportion-----
 
-# select the top 2 weighted value for each spot
 norm_weights
 df_norm_wei <- as.data.frame(norm_weights)
 write.csv(df_norm_wei, 'slice4_norm_wei.csv') 
